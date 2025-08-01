@@ -1,10 +1,8 @@
 <script>
-  import { Alert } from "flowbite-svelte";
+  import { Button } from "flowbite-svelte";
 </script>
 
-<div class="p-8">
-  <Alert>
-    <span class="font-medium">Info alert!</span>
-    Change a few things up and try submitting again.
-  </Alert>
+<p class="text-center">An Indie Game Development Studio with the goal of creating experiences that are fun to interact with.</p>
+<div class="flex justify-center py-4">
+<Button color="dark"><a href="/about">Learn More</a></Button>
 </div>
