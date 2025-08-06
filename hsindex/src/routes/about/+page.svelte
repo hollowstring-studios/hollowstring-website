@@ -1,8 +1,8 @@
 <script>
-import f1 from '$lib/assets/founders/nabir14.jpeg';
-import f2 from '$lib/assets/founders/ankan.jpg';
-import f3 from '$lib/assets/founders/moshfiq.jpg';
-import f4 from '$lib/assets/founders/oneil.jpg';
+import f1 from '$lib/assets/founders/nabir14.webp';
+import f2 from '$lib/assets/founders/ankan.webp';
+import f3 from '$lib/assets/founders/moshfiq.webp';
+import f4 from '$lib/assets/founders/oneil.webp';
 </script>
 <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl text-center mb-8">
     About Hollowstring Studios

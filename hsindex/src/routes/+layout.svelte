@@ -3,6 +3,7 @@
 	import favicon from '$lib/assets/favicon.ico';
   import logo from '$lib/assets/logo.png';
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from "flowbite-svelte";
+  import { Footer, FooterCopyright, FooterLinkGroup, FooterLink } from "flowbite-svelte";
 	let { children } = $props();
 </script>
 
@@ -27,3 +28,7 @@
 <main class="container mx-auto px-4 py-8">
 	{@render children?.()}
 </main>
+
+<Footer>
+<FooterCopyright href="/" by="Hollowstring Studios" year={2025} class="w-full"/>
+</Footer>

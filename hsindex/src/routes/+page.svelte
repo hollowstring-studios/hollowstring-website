@@ -1,5 +1,8 @@
 <script>
   import { Button } from "flowbite-svelte";
+import c1 from '$lib/assets/others/terratop.webp';
+import c2 from '$lib/assets/others/intruder.webp';
+import c3 from '$lib/assets/others/untitled-land.webp';
 </script>
 
 <div class="text-center">
@@ -21,13 +24,13 @@
 <div class="mt-16">
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
     <div class="rounded-lg shadow-lg overflow-hidden">
-      <img src="https://picsum.photos/seed/game1/600/400" alt="Game 1" class="w-full h-48 object-cover">
+      <img src={c1} alt="Game 1" class="w-full h-48 object-cover">
     </div>
     <div class="rounded-lg shadow-lg overflow-hidden">
-      <img src="https://picsum.photos/seed/game2/600/400" alt="Game 2" class="w-full h-48 object-cover">
+      <img src={c2} alt="Game 2" class="w-full h-48 object-cover">
     </div>
     <div class="rounded-lg shadow-lg overflow-hidden">
-      <img src="https://picsum.photos/seed/game3/600/400" alt="Game 3" class="w-full h-48 object-cover">
+      <img src={c3} alt="Game 3" class="w-full h-48 object-cover">
     </div>
   </div>
 </div>
