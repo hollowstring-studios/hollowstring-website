@@ -1,3 +1,8 @@
+<svelte:head>
+  <title>Contact Hollowstring Studios</title>
+  <meta name="description" content="Contact Hollowstring Studios for inquiries, collaborations, or to learn more about our indie game development projects. Reach out to us via email or our contact form." />
+</svelte:head>
+
 <div class="container mx-auto px-4 py-8">
   <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl text-center mb-8">
     Contact Us

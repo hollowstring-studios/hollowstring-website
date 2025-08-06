@@ -8,7 +8,15 @@
 </script>
 
 <svelte:head>
+	<title>Hollowstring Studios</title>
+	<meta name="description" content="An Indie Game Development Studio with the goal of creating experiences that are fun to interact with." />
 	<link rel="icon" href={favicon} />
+	<meta property="og:title" content="Hollowstring Studios" />
+	<meta property="og:description" content="An Indie Game Development Studio with the goal of creating experiences that are fun to interact with." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://hollowstring.com" />
+	<meta property="og:image" content="https://hollowstring.com/logo.png" />
+	<meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
 <Navbar>

@@ -4,6 +4,38 @@ import f2 from '$lib/assets/founders/ankan.webp';
 import f3 from '$lib/assets/founders/moshfiq.webp';
 import f4 from '$lib/assets/founders/oneil.webp';
 </script>
+
+<svelte:head>
+  <title>About Hollowstring Studios</title>
+  <meta name="description" content="Learn about Hollowstring Studios, an indie game development company founded in 2025. Meet the team and discover our passion for creating immersive gaming experiences." />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Hollowstring Studios",
+      "url": "https://hollowstring.com",
+      "logo": "https://hollowstring.com/logo.png",
+      "description": "An Indie Game Development Studio with the goal of creating experiences that are fun to interact with.",
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "MD Mushfique Farhan Nabir",
+          "jobTitle": "Co-founder & Lead Developer"
+        },
+        {
+          "@type": "Person",
+          "name": "Ankan Das",
+          "jobTitle": "Co-founder & Lead Artist"
+        },
+        {
+          "@type": "Person",
+          "name": "MD Moshfiqur Rahman Khan",
+          "jobTitle": "Co-founder & Lead Designer"
+        }
+      ]
+    }
+  </script>
+</svelte:head>
 <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl text-center mb-8">
     About Hollowstring Studios
   </h1>
