@@ -2,6 +2,10 @@
   <h1 class="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl text-center mb-8">
     Contact Us
   </h1>
+  <p class="text-center text-white pb-4">
+  Besides making games we are also open for work with other teams.
+  <br>You can contact us if you want to work with us.
+  </p>
   <div class="max-w-lg mx-auto">
     <form class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-8">
       <div class="mb-4">
@@ -24,7 +28,7 @@
     </form>
     <div class="text-center mt-8">
       <p class="text-gray-700 dark:text-gray-300">You can also reach us at:</p>
-      <a href="mailto:contact@hollowstring.com" class="text-primary-500 hover:underline">contact@hollowstring.com</a>
+      <a href="mailto:hollowstringstudios@gmail.com" class="text-primary-500 hover:underline">hollowstringstudios@gmail.com</a>
       <div class="flex justify-center mt-4">
         <a href="https://www.facebook.com/hollowstring" class="text-gray-500 hover:text-primary-500 dark:hover:text-primary-500 mx-2" aria-label="Facebook">
           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
