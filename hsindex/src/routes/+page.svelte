@@ -11,14 +11,29 @@
   </p>
   <div class="mt-5 sm:mt-8 sm:flex sm:justify-center">
     <div class="rounded-md shadow">
-      <Button href="/about" color="dark">
+      <Button href="/about">
         Learn More
       </Button>
     </div>
     <div class="mt-3 sm:mt-0 sm:ms-3">
-      <Button href="/projects" color="light">
+      <Button href="/projects" color="alternative">
         Our Projects
       </Button>
+    </div>
+  </div>
+</div>
+
+<div class="mt-16">
+  <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white text-center mb-8">Our Games</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="rounded-lg shadow-lg overflow-hidden">
+      <img src="https://picsum.photos/seed/game1/600/400" alt="Game 1" class="w-full h-48 object-cover">
+    </div>
+    <div class="rounded-lg shadow-lg overflow-hidden">
+      <img src="https://picsum.photos/seed/game2/600/400" alt="Game 2" class="w-full h-48 object-cover">
+    </div>
+    <div class="rounded-lg shadow-lg overflow-hidden">
+      <img src="https://picsum.photos/seed/game3/600/400" alt="Game 3" class="w-full h-48 object-cover">
     </div>
   </div>
 </div>

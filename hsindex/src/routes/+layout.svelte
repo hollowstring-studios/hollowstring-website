@@ -12,7 +12,7 @@
 <Navbar>
   <NavBrand href="/">
     <img src="/images/flowbite-svelte-icon-logo.svg" class="me-3 h-6 sm:h-9" alt="logo" />
-    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+    <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Hollowstring</span>
   </NavBrand>
   <NavHamburger />
   <NavUl>
@@ -23,4 +23,6 @@
   </NavUl>
 </Navbar>
 
-{@render children?.()}
+<main class="container mx-auto px-4 py-8">
+	{@render children?.()}
+</main>
