@@ -7,7 +7,7 @@
   <br>You can contact us if you want to work with us.
   </p>
   <div class="max-w-lg mx-auto">
-    <form class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-8">
+    <form class="bg-white dark:bg-gray-700 rounded-lg shadow-md p-8" action="https://formsubmit.co/hollowstringstudios@gmail.com" method="POST">
       <div class="mb-4">
         <label for="name" class="block text-gray-700 dark:text-gray-300 font-bold mb-2">Name</label>
         <input type="text" id="name" name="name" class="w-full px-3 py-2 border rounded-lg text-gray-700 dark:text-gray-300 bg-white dark:bg-gray-800 focus:outline-none focus:border-primary-500" />
