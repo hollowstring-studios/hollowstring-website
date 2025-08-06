@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import favicon from '$lib/assets/favicon.ico';
+  import logo from '$lib/assets/logo.png';
 	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from "flowbite-svelte";
 	let { children } = $props();
 </script>
@@ -11,7 +12,7 @@
 
 <Navbar>
   <NavBrand href="/">
-    <img src="/images/flowbite-svelte-icon-logo.svg" class="me-3 h-6 sm:h-9" alt="logo" />
+    <img src={logo} class="me-3 h-6 sm:h-9" alt="logo" />
     <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Hollowstring</span>
   </NavBrand>
   <NavHamburger />

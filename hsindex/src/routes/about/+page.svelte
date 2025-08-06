@@ -11,17 +11,17 @@ import f4 from '$lib/assets/founders/oneil.jpg';
     <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white text-center mb-8">Meet the Founders</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
       <div class="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6 text-center">
-        <img class="w-32 h-32 rounded-full mx-auto mb-4" src={f1} alt="Founder 1">
+        <img class="w-64 h-64 object-cover rounded-full mx-auto mb-4" src={f1} alt="Founder 1">
         <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">MD Mushfique Farhan Nabir</h3>
         <p class="text-gray-700 dark:text-gray-400">Co-founder & Lead Developer</p>
       </div>
       <div class="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6 text-center">
-        <img class="w-32 h-32 rounded-full mx-auto mb-4" src={f2} alt="Founder 2">
+        <img class="w-64 h-64 object-cover rounded-full mx-auto mb-4" src={f2} alt="Founder 2">
         <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">Ankan Das</h3>
         <p class="text-gray-700 dark:text-gray-400">Co-founder & Lead Artist</p>
       </div>
       <div class="bg-white dark:bg-gray-700 rounded-lg shadow-lg p-6 text-center">
-        <img class="w-32 h-32 rounded-full mx-auto mb-4" src={f3} alt="Founder 3">
+        <img class="w-64 h-64 object-cover rounded-full mx-auto mb-4" src={f3} alt="Founder 3">
         <h3 class="text-xl font-bold text-gray-900 dark:text-white mb-2">MD Moshfiqur Rahman Khan</h3>
         <p class="text-gray-700 dark:text-gray-400">Co-founder & Lead Designer</p>
       </div>
