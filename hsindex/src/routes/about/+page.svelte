@@ -10,7 +10,7 @@
       "logo": "https://hollowstring.com/logo.png",
       "description": "An Indie Game Development Studio with the goal of creating experiences that are fun to interact with.",
     }
-</script
+  </script>
 </svelte:head>
 
 <div class="container mx-auto px-4 py-8">
