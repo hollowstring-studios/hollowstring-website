@@ -1,4 +1,3 @@
-<script>
 <svelte:head>
   <title>About Hollowstring Studios</title>
   <meta name="description" content="Learn about Hollowstring Studios, an indie game development company founded in 2025. Meet the team and discover our passion for creating immersive gaming experiences." />
@@ -11,9 +10,8 @@
       "logo": "https://hollowstring.com/logo.png",
       "description": "An Indie Game Development Studio with the goal of creating experiences that are fun to interact with.",
     }
-</script>
-
 </svelte:head>
+
   <div class="container mx-auto px-4 py-8">
   <div class="prose prose-lg mx-auto dark:prose-invert">
     <p class="text-white">
