@@ -12,7 +12,7 @@
     }
 </svelte:head>
 
-  <div class="container mx-auto px-4 py-8">
+<div class="container mx-auto px-4 py-8">
   <div class="prose prose-lg mx-auto dark:prose-invert">
     <p class="text-white">
     Founded in 2025, Hollowstring Studios emerged from the rebranding of Orthos Studios. The original studio, also established by the same three founders, initially developed both games and applications. However, this dual focus led to significant challenges, including project delays and team fragmentation.
